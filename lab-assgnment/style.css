@@ -1,0 +1,158 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    justify-content: center;
+    color: white;
+    flex: 0 1 calc(50% - 20px);
+}
+
+.item img {
+    height: 100px;
+    width: 100px;
+}
+
+.education-table th,
+.education-table td {
+    padding: 5px;
+    text-align: left;
+}
+
+.resume5 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.skills ul {
+    padding-left: 20px;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.education-table th,
+.education-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.item-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-description {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex: 0 1 calc(100% - 20px);
+    }
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    list-style-type: none;
+    background-color: #961edc;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.video{ 
+    position: fixed;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.achievements-list {
+    padding: 0;
+    margin: 0;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+}

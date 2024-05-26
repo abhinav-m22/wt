@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./validation.css">
+    <title>Curriculum Vitae</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./validation.js"></script>
+</head>
+
+<body>
+    <div class="video-container">
+        <video autoplay muted loop width="100%" class="video">
+            <source src="video-5.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="main">
+        <h1 class="header">
+            Login
+        </h1>
+        <form action="" class="form" method="post">
+            <label for="">Username</label>
+            <input type="text" id="username" name="username">
+            <label for="">Password</label>
+            <input type="password" id="password" name="password">
+
+            <input onclick="validate()" class="btn" value="Login" readonly>
+        </form>
+    </div>
+
+    <!-- <div class="main">
+        <form action="" class="form">
+            <label for="emaik">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Mobile Number</label>
+            <input type="mobile" id="mobile" name="mobile">
+            <input value="Login" onclick="sendEmail()" class="btn">
+        </form>
+    </div> -->
+</body>
+</html>
